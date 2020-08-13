@@ -5,8 +5,16 @@ body {
     max-width: 80%;
     padding: 2em 2em 4em;
 }
+
+.navbar {
+  min-width: max-content;
+  background-color:rgb(139, 166, 201);
+  height: 40px;
+  position: absolute;
+  
+}
 .mainheader {
-		text-align: center; 
+		text-align: left; 
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
@@ -16,3 +24,45 @@ h1 {
 p{
   color: black;
 }
+ 
+ .mainbar {
+   
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: arial;
+ }
+ 
+ .mainitem {
+  color: white;
+  float: left;
+  width: 200px;
+  
+  
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+ }
+ 
+ .mainitemtext {
+  color:rgb(30, 48, 87);
+   font-weight: bold ;
+  text-decoration: none;
+  display: block; 
+  background-color:rgb(139, 166, 201);
+ }
+ 
+ .mainitemtexthover a:hover {
+  background-color:lightblue;
+ }
+ 
+ .dropitem {
+  display: none;
+ }
+ 
+ nav ul li:hover ul li {
+  display: block;
+  
+ }
