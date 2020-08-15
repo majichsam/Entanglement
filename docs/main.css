@@ -4,13 +4,24 @@ body {
     margin: 0 auto;
     max-width: 80%;
     padding: 2em 2em 4em;
+    
 }
+h2 {
 
+    color: navy;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
+address {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  
+
+}
 .navbar {
   min-width: max-content;
   background-color:rgb(139, 166, 201);
   height: 40px;
-  position: absolute;
+  
   
 }
 .mainheader {
@@ -20,18 +31,31 @@ body {
 h1 {
   color: navy;
   margin-left: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p{
   color: black;
+  font-size: 17px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
- 
+ img {
+  width: 250px; 
+  height: 100%; 
+  object-fit: scale-down;
+  padding-top: 20px; 
+}
+figure{
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
  .mainbar {
    
   color: white;
   margin: 0px;
   padding: 0px;
   list-style: none;
-  font-family: arial;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
  
  .mainitem {
@@ -66,3 +90,13 @@ p{
   display: block;
   
  }
+
+ table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+td, th {
+	padding: 5px 10px;
+}
