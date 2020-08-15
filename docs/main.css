@@ -19,7 +19,7 @@ address {
 }
 .navbar {
   min-width: max-content;
-  background-color:rgb(139, 166, 201);
+  background-color: rgb(0, 107, 179);
   height: 40px;
   
   
@@ -30,7 +30,7 @@ address {
 }
 h1 {
   color: navy;
-  margin-left: 20px;
+  
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p{
@@ -61,9 +61,7 @@ figure{
  .mainitem {
   color: white;
   float: left;
-  width: 200px;
-  
-  
+  width: 200px; 
   opacity: .8;
   line-height: 40px;
   text-align: center;
@@ -71,11 +69,11 @@ figure{
  }
  
  .mainitemtext {
-  color:rgb(30, 48, 87);
+  color:rgb(153, 255, 235);
    font-weight: bold ;
   text-decoration: none;
   display: block; 
-  background-color:rgb(139, 166, 201);
+  background-color: rgb(0, 107, 179);
  }
  
  .mainitemtexthover a:hover {
