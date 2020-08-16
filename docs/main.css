@@ -41,11 +41,11 @@ p{
  img {
   width: 250px; 
   height: 100%; 
-  object-fit: scale-down;
-  padding-top: 20px; 
+  object-fit: scale-down; 
+  border: 1px solid #ddd;
 }
 figure{
-  padding: 0px;
+  padding-top: 20px;
   border: 0px;
   margin: 0px;
 }
